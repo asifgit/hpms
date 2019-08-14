@@ -1,0 +1,100 @@
+/*Step-2*/
+
+li.folded-lefttop{
+position:relative; /*lets us position the fold relative to the box*/
+width:310px; /*width of the box*/
+padding:8px;
+border-radius: 5px;
+background: #4D83A0; /*colour of the box*/
+}
+
+.folded-lefttop p{
+color:#f7f7f7;
+}
+
+.folded-lefttop div
+{
+	 border-style: solid;
+	 border-color: BLACK;
+	 border-radius:10px;
+	 border-right:none;
+	 background-color:WHITE;
+	 height: 184px;
+}
+
+.folded-lefttop div.pre-scrollable thead.BlTblHdrs
+{
+	color:#25383C;
+	font-weight:bold;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.folded-lefttop div.pre-scrollable tfoot.BlTblFtrs
+{
+	font-size:17px;
+	font-weight:bold;
+	color:red;
+}
+
+/*Step-2*/
+
+/*We're going to create a 65px fold slightly darker than the box*/
+.folded:after {
+border-right: #f1f1e3 65px solid; /*we don't want this border to be seen so we use the same colour as the page, the width of the border is the size you want the fold to be*/
+border-bottom:#8c8a6c 65px solid; /*this border forms the most obvious part of the fold, use a colour slightly darker than the box (or whatever colour you imagine the reverse of the 'paper' to be), the size should be the same as border-right*/
+content:""; /*creates a blank psuedo element which is used as the fold*/
+/*add a small drop shadow to the fold*/
+-webkit-box-shadow:-1px 1px 3px -4px rgba(0,0,0,0.2);
+-moz-box-shadow:-1px 1px 3px -4px rgba(0,0,0,0.2);
+box-shadow:-1px 1px 3px -4px rgba(0,0,0,0.2);
+}
+
+/*Step-3*/
+
+.folded:after {
+position:absolute; /*positions the fold relative to the box created above rather than the whole page*/
+top:0; /*places the top of the fold 0px from the top of the box*/
+right:0; /*places the right side of the fold 0px from the right side of the box*/
+}
+
+/*Step-4*/
+
+.folded-lefttop:after{
+content:"";
+position:absolute;
+top:0;
+left:0;
+border-bottom:#055c8b 45px solid;	/* top left back color of fold dark green*/
+border-left:WHITE 45px solid;		/* top left back color to make the back side of fold dissapear*/
+}
+
+/*Step-5*/
+
+.folded-leftbottom:after{
+content:"";
+position:absolute;
+bottom:0;
+left:0;
+border-top:#8c8a6c 65px solid;
+border-left:#efefe1 65px solid;
+}
+
+/*Step-6*/
+
+.folded-rightbottom:after{
+content:"";
+position:absolute;
+bottom:0;
+right:0;
+border-right:#efefe1 65px solid;
+border-top:#8c8a6c 65px solid;
+}
+
+.hdrInBill
+{
+	background-color:BLACK; 
+	padding-top:4px;
+	padding-bottom: 4px;
+
+}

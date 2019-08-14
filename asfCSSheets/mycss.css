@@ -1,0 +1,489 @@
+
+/*Footer Classes*/
+.ftr
+{
+    height: 200px;
+    background-color: #ebf2f6;
+
+}
+
+.ulInFtr
+    {
+        padding-left: 20px;
+
+    }
+
+.ulHdrInFtr
+    {
+        text-align:center;
+        font-size:18px;
+        border-radius: 10px;
+        background-color:#055c8b;
+        color:WHITE;
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+    }
+
+.ftr hr
+{
+     size:3px;
+     width:100%;
+     height: 1px;
+     background-color: #000000;
+}
+
+.ftr div.span8
+{
+    border:1px solid black;
+    padding: 15px 20px 15px 20px;
+}
+
+.ftr div.span3
+{
+    border:1px solid black;
+    padding: 5px 20px 0px 20px;
+    border-radius:10px;
+    height:130px;
+}
+
+.ftr div.span2
+{
+    border:1px solid black;
+    padding: 15px 20px 0px 20px;
+    border-radius:40px;
+    height:160px;
+}
+
+body .container-fluid
+{
+    min-width: 305px;
+    margin: 15px 50px 15px 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border:3px solid BLACK;
+}
+
+.rghtTop
+{
+    color:WHITE;
+}
+
+/*
+div#bdyPatientViews
+{
+    width: 1120px;
+    border:1px solid black;
+    padding: 15px 10px 0px 0px;
+
+}
+*/
+
+#clkdMnu
+{
+    background-color:#ebf2f6;
+    color:BLACK;
+    border: 1px solid #055c8b;
+    border-radius: 12px;
+    
+    /*text-decoration: line-through;*/
+
+}
+
+#lgInDiv
+{
+    margin-top:10px;
+
+}
+
+#lgInBtn
+{
+    text-decoration:none;
+    color:WHITE;
+
+}
+
+#lgInOrUpdtBox
+{
+    min-width:444px;
+    border:1px solid black;
+    border-radius:20px;
+    padding: 5px 0px 15px 60px;
+    text-align: center;
+
+}
+
+/*Login Box Settings*/
+#Login
+{
+    min-width: 320px;
+    text-align: center;
+    border: none;
+
+
+}
+
+#InLogin
+{
+    padding: 20px 0 20px 0;
+    border: 1px solid BLACK;
+    border-radius:10px;
+    text-align:center;
+
+}
+
+#InLoginHdr
+{
+    background-color: #055c8b;
+    color: WHITE;
+
+}
+
+#Login form
+{
+    min-width: 303px;
+}
+
+#Login h2, #Login form, #Login img, #Login div
+{
+    text-align: center;
+}
+
+#msgLoginResponse
+{
+    padding-top: 20px;
+    color: #ebf2f6;
+}
+
+#Login form
+{
+    padding-top: 2px;
+
+}
+/*Update Setting*/
+#Update
+{
+    min-width: 360px;
+    text-align: center;
+    border: none;
+
+
+}
+
+#InUpdate
+{
+    padding: 20px 0 20px 0;
+    border: 1px solid BLACK;
+    border-radius:10px;
+    text-align:center;
+
+}
+
+#InUpdateHdr
+{
+    background-color: #055c8b;
+    color: WHITE;
+
+}
+
+#Update form
+{
+    min-width: 348px;
+}
+
+#Update h2, #Update form, #Update img, #Update div
+{
+    text-align: center;
+}
+
+#Update form
+{
+    padding-top: 26px;
+
+}
+
+
+#lgInBox
+{
+    padding-top:0px;
+}
+
+#stlrghtToImgz
+{
+     border:1px solid black;
+     border-radius:10px;
+     height:306px;
+}
+
+#stlrghtToImgz p, #stlrghtToImgz ul
+{
+    padding: 2px 50px 15px 50px;
+    text-align: justify;
+
+}
+
+.hdngInCntr
+{
+    text-align: center;
+
+}
+
+div#bdyAdPtViews
+{
+    width: 1120px;
+    border:1px solid black;
+    padding: 15px 20px 15px 20px;
+
+}
+
+div#bdyAdPtViews caption
+{
+    background-color: BLACK;
+    color: WHITE;
+
+}
+
+#VwDocsHdr,#VwDocsHdrwthoutForm, #VwPtsHdr
+{
+    background-color: #055c8b;
+    color: WHITE;
+    text-align: center;
+    padding: 2px 0 5px 0;
+}
+
+#VwDocsHdrwthoutForm
+{
+    height:30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 0 10px 0;
+}
+
+#fntWghtSize, #fntWghtSizePt
+{
+    font-weight:Bold;
+    font-size:16px;
+}
+
+div#bdyAdPtViews thead, #hdrTblDctr thead, #hdrTblPt thead, #hdrTblApnt thead
+{
+    font-size:16px;
+
+}
+
+div#bdyAdPtViews thead
+{
+    font-weight: bold;
+
+}
+
+#hdrTblDctr caption, #hdrTblPt caption, #hdrTblApnt caption
+{
+    background-color: BLACK;
+    color: WHITE;
+}
+
+#hdrTblDctr h4, #hdrTblPt h4, #hdrTblApnt h4
+{
+    margin-top:18px;
+}
+
+#hdrTblDctr, #hdrTblPt, #hdrTblApnt
+{
+    /*max-width: 800px;*/
+}
+
+#hdrTblDctr span, #hdrTblPt span, #hdrTblApnt span
+{
+    margin-bottom: 13px;
+    margin-top: 13px;
+    text-align: center;
+    
+}
+
+#hdrTblDctr form, #hdrTblPt form, #hdrTblApnt form
+{
+    min-width: 200px;
+    text-align: center;
+   /*max-width: 700px;*/
+}
+
+#ulInNav
+{
+    padding-top:20px;
+
+}
+#ulInNav li
+{
+    border-style:outset;
+    border: none;
+
+}
+
+#hdrTblApntmnts span
+{
+    margin-top:13px;
+}
+
+#signInDec
+{
+    padding-top: 10px;
+    text-decoration: none;
+    color: WHITE;
+    
+}
+
+#signInDecClkd
+{
+    background-color:WHITE;
+    color:BLACK;
+    text-decoration: none;
+    text-decoration: line-through;
+    transform:rotate(-26deg);
+    -ms-transform:rotate(-26deg); /* IE 9 */
+    -webkit-transform:rotate(-26deg); /* Safari and Chrome */
+    width: 48px;
+    text-align: center;
+
+}
+
+#imgsldshw img 
+{
+    background-color:#eae9d4; /*frame colour*/
+    padding: 6px; /*frame size*/
+    /*add a drop shadow to the frame*/
+    -webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    /*and give the corners a small curve*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    max-width: 550px;
+    height: 297px;
+    width: 100%;
+    border:none;
+}
+
+#DateSrchBr
+{
+    border:1px solid Black;
+    border-radius:10px;
+    text-align:center; 
+    padding-top:15px;
+    background-color: #f3f4f6;
+}
+#imgIntrCnt
+{
+    background: url(../Images/Hospitals/doctor-patient.jpg);
+    background-opacity: .4;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#divLgUpdt
+{
+    background-color: #ebf2f6;
+}
+#lgo img
+{
+    width: 372px;
+    height: 60px;
+}
+
+#srchInNav
+{
+    padding-top: 20px;
+
+}
+#srchInNav input
+{
+    background-color: WHITE;
+    border:1px solid #055c8b;
+}
+
+
+table.table-striped
+{
+    background-color: WHITE;
+}
+
+#mdlhdr
+{
+    background-color:#c9c9c9;
+    color:WHITE;
+    text-align:center;
+    background-image: linear-gradient(to bottom, #055c8b, #055c8b);
+    background-repeat: repeat-x;
+    border-color: #252525;
+}
+
+#mdlhdr button
+{
+    color:Red;
+    border:3px solid Red;
+    border-radius:100px;
+}
+
+#mdlbdy
+{
+    background-color:#ebf2f6;
+}
+
+#mdlftr
+{
+    background-color:#c9c9c9;
+    color:BLACK;
+    background-image: linear-gradient(to bottom, #055c8b, #055c8b);
+    background-repeat: repeat-x;
+    border-color: #252525;
+    height:2%;
+
+}
+
+#mdlhdrnm
+{
+    color:Yellow;
+    background-color: BLACK;
+}
+
+.mdlbdyImgPrescription
+{
+    width:100%;
+    height:396px;
+    border:2px solid BLACK;
+    border-radius:10px;
+}
+
+#blmdhdr
+{
+    text-align: center;
+    background-color: Yellow;
+}
+.billPrint
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.billPrint td, .billPrint th
+{
+    border:1px solid BLACK;
+}
+.fileUpload
+{
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

@@ -1,0 +1,7 @@
+img#icon-users
+{
+	width:  21px;
+    height: 21px;
+	background: url(../Images/Icons/glyphicons-halflings-white.png) -165px 3px; /*-189px -204px;*/
+	
+}
